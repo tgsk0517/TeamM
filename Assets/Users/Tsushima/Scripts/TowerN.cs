@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tower : TowerStats
+public class TowerN : TowerStats
 {
     void Start()
     {
@@ -20,7 +20,7 @@ public class Tower : TowerStats
     {
         Debug.Log("TowerCollider");
         // 攻撃範囲にEnemyタグが侵入し続けている間
-        if (collider.gameObject.tag == "Enemy")
+        if (collider.gameObject.tag == "EnemyS")
         {
             // boolとdeltaTimeで発射間隔制御(理想はコルーチンなのかもしれない)
             ATKct = true;
