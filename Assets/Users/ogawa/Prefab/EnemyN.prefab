@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 1982513836358153802}
   - component: {fileID: 1982513836358153801}
   m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Enemy
+  m_Name: EnemyN
+  m_TagString: EnemyN
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f975c31494d4c3e8d6bee4754eef0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 50
+  MoveSpeed: 40
   target: {fileID: 7607301202717858881, guid: 4b040cc54bef84e0a900270b64747d26, type: 3}
 --- !u!61 &1982513836358153803
 BoxCollider2D:

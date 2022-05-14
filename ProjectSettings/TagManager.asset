@@ -4,19 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Enemy
-  - Tower
-  - Ammo
+  - tower
   - EnemyS
   - EnemyN
-=======
-  - tower
->>>>>>> origin/Daicho
-=======
-  - tower
->>>>>>> origin/Daicho
   layers:
   - Default
   - TransparentFX
