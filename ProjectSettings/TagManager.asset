@@ -5,11 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Enemy
   - Tower
   - Ammo
   - EnemyS
   - EnemyN
+=======
+  - tower
+>>>>>>> origin/Daicho
 =======
   - tower
 >>>>>>> origin/Daicho
