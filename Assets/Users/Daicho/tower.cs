@@ -12,6 +12,8 @@ public class tower : MonoBehaviour
     //[HideInInspector]
     public Vector3 pos;
     private Vector3 worldPosition;
+    private int possibleNum = 3;
+
     private void Start()
     {
         pos = transform.position;
@@ -27,6 +29,14 @@ public class tower : MonoBehaviour
         {
             GameObject instance = (GameObject)Instantiate(towerPrefab, worldPosition, Quaternion.identity);
             isClone = false;
+        }
+    }
+
+    private void OnMouseEnter()
+    {
+        if (possibleNum > 0)
+        {
+            possibleNum--;
         }
     }
     private void OnMouseDrag()

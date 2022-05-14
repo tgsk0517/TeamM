@@ -19,18 +19,22 @@ public class TowerStatus : MonoBehaviour
         maxTowerHP = towerHP;
     }
 
-    private void Update()
-    {
-        if(towerHP == 0)
-        {
-            gameManager.GameOver();
-        }
-    }
+    //private void Update()
+    //{
+    //    if(towerHP == 0)
+    //    {
+    //        gameManager.GameOver();
+    //    }
+    //}
 
     public void Damage()
     {
-        towerHP = towerHP - 1.0f;
-        sliderRef.value = towerHP / maxTowerHP;
+        if(towerHP == 0)
+        {
+            towerHP = towerHP - 1.0f;
+            sliderRef.value = towerHP / maxTowerHP;
+
+        }
 
     }
 }
