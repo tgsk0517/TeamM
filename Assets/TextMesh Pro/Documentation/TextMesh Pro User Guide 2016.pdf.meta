@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1b8d251f9af63b746bf2f7ffe00ebb9b
+=======
+<<<<<<< HEAD:Assets/Scenes/Title.unity.meta
+guid: f000b1938ea8459458439c5ae26d4769
+=======
+guid: 1b8d251f9af63b746bf2f7ffe00ebb9b
+>>>>>>> origin/Daicho:Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+>>>>>>> origin/Daicho
 DefaultImporter:
   externalObjects: {}
   userData: 
