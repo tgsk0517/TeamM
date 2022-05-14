@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class TowerS : TowerStats
 {
+    [SerializeField]
+    private float ATKctTime;
+    
     void Start()
     {
         _timer = 0.0f;
-        ATKctTime = 1.0f;
         ATKct = false;
     }
 
