@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
         gameOverFlag = false;
     }
 
-    private void GameOver()
+    public void GameOver()
     {
         if (gameOverFlag)
         {
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void PlayGame()
+    public void PlayGame()
     {
         SceneManager.LoadScene("MainGameScene");
     }
