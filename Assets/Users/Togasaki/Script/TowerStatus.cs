@@ -4,21 +4,32 @@ using UnityEngine.UI;
 public class TowerStatus : MonoBehaviour
 {
     [SerializeField,Header("塔のHP")]
-    private int towerHP = 10;
+    private float towerHP = 10;
 
-    private int maxTowerHP;
+    private float maxTowerHP;
 
     [SerializeField, Header("HPバー")]
     private Slider sliderRef;
+
+    [SerializeField, Header("ゲームマネージャー")]
+    private GameManager gameManager;
 
     private void Start()
     {
         maxTowerHP = towerHP;
     }
 
-    void Damage()
+    private void Update()
     {
-        towerHP--;
+        if(towerHP == 0)
+        {
+            gameManager.GameOver();
+        }
+    }
+
+    public void Damage()
+    {
+        towerHP = towerHP - 1.0f;
         sliderRef.value = towerHP / maxTowerHP;
 
     }

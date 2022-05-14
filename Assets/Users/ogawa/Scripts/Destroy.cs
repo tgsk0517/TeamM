@@ -7,6 +7,10 @@ public class Destroy : MonoBehaviour
     void OnTriggerEnter2D (Collider2D c)
     {
 	    if (c.gameObject.tag == "tower")
-			Destroy (this.gameObject);
+        {
+            c.GetComponent<TowerStatus>().Damage();
+            Destroy(this.gameObject);
+
+        }
     }
 }

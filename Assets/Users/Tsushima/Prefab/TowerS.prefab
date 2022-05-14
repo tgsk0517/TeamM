@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1495823829888705742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -773.8447, y: -45.125053, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ammo: {fileID: 2845750072324187817, guid: d87612b1963024759a4bc9ec60f3b517, type: 3}
+  ATKctTime: 1
 --- !u!50 &1495823829888705781
 Rigidbody2D:
   serializedVersion: 4

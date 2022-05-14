@@ -16,6 +16,38 @@ MonoBehaviour:
   templateName: 
   description: 
   preview: {fileID: 0}
-  dependencies: []
+  dependencies:
+  - dependency: {fileID: 671053153085198071, guid: 46171b1ad4fc5be4d82b4c4c159b12c0, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2845750072324187817, guid: 65f0a0f4a8a9a475993635695ac97b82, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2845750072324187817, guid: d87612b1963024759a4bc9ec60f3b517, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 1982513836358153807, guid: 4f2c0ac2ac6fc484692787b014e35700, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ee148e281f3c41c5b4ff5f8a5afe5a6c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2928641078603634139, guid: 43ba6d5f228fa4eae9a7a1284adc1c66, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 6806657516844219735, guid: b7beec9bb9dd15940bed831c69d32395, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2fd6421f253b4ef1a19526541f9ffc0c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 1982513836358153807, guid: 3e775fe73adda4e51af40f5f742543b2, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7607301202717858881, guid: 4b040cc54bef84e0a900270b64747d26, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 1495823829888705742, guid: 62e466f5080d247df8eec724ba46ad9d, type: 3}
+    instantiationMode: 0
   templatePipeline: {fileID: 0}
   addToDefaults: 0
