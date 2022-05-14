@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class RandomEnemySpawn : MonoBehaviour
 {
-    public GameObject PrefabCircle;
+    public GameObject[] Enemy;
+    private int number;
 
     void Update()
     {
         if(Time.frameCount % 60 == 0)
         {
-            float x = Random.Range(2000.0f, -2000.0f);
-            float y = Random.Range(1100.0f, -1100.0f);
+            float x = Random.Range(1920.0f, -1820.0f);
+            float y = Random.Range(1080.0f, -1080.0f);
             Vector2 pos = new Vector2(x, y);
+            number = Random.Range (0, Enemy.Length); 
  
-            Instantiate(PrefabCircle, pos, Quaternion.identity);
+            Instantiate(Enemy[number], pos, Quaternion.identity);
         }    
     }
  
