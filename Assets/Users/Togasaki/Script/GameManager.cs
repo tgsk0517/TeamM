@@ -1,26 +1,42 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public static bool gameOverFlag = false;
+    //public static bool gameOverFlag = false;
+
+    [SerializeField, Header("“ƒ")]
+    private TowerStatus TowerRef;
+
+    [SerializeField, Header("gameover")]
+    private Text gameOverObj;
 
     private void Start()
     {
-        gameOverFlag = false;
+        gameOverObj.color = new Color(0, 0, 0, 0);
     }
 
-    public void GameOver()
+    private void Update()
     {
-        if (gameOverFlag)
+        if(TowerRef.towerHP == 0)
         {
-            SceneManager.LoadScene("Title");
+            gameOverObj.color = new Color(1, 1, 1, 1);
+
         }
     }
 
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("MainGameScene");
-    }
+    //public void GameOver()
+    //{
+    //    if (gameOverFlag)
+    //    {
+    //        SceneManager.LoadScene("Title");
+    //    }
+    //}
+
+    //public void PlayGame()
+    //{
+    //    SceneManager.LoadScene("MainGameScene");
+    //}
 
 }
